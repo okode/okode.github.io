@@ -111,6 +111,10 @@
               });
 
               $.each(repos, function (i, repo) {
+                // Exclude okode.github.io
+                if (repo.name == "okode.github.io") {
+                  return true;
+                }
                 addRepo(repo);
               });
 
