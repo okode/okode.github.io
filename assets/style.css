@@ -70,6 +70,7 @@ a:hover {
   height: 64px;
   margin: 15px 0 0 15px;
   background: url("logo.png");
+  background-size: 190px 64px;
   text-indent: -99999px;
 }
 
